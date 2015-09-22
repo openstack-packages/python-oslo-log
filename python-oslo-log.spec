@@ -23,6 +23,7 @@ Requires:       python-oslo-i18n
 Requires:       python-oslo-utils
 Requires:       python-oslo-serialization
 Requires:       python-debtcollector
+Requires:       python-inotify
 
 %description
 OpenStack logging configuration library provides standardized configuration
