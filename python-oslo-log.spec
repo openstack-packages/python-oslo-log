@@ -24,6 +24,7 @@ Summary:        OpenStack Oslo Log library
 BuildRequires:  python2-devel
 BuildRequires:  python-pbr
 # Required for tests
+BuildRequires:  python-dateutil
 BuildRequires:  python-mock
 BuildRequires:  python-oslotest
 BuildRequires:  python-oslo-config
@@ -35,6 +36,7 @@ BuildRequires:  python-testtools
 BuildRequires:  python-inotify
 
 Requires:       python-babel
+Requires:       python-dateutil
 Requires:       python-six >= 1.9.0
 Requires:       python-oslo-config
 Requires:       python-oslo-context
@@ -84,6 +86,7 @@ Summary:        OpenStack Oslo Log library
 BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 # Required for tests
+BuildRequires:  python3-dateutil
 BuildRequires:  python3-mock
 BuildRequires:  python3-oslotest
 BuildRequires:  python3-oslo-config
@@ -95,6 +98,7 @@ BuildRequires:  python3-testtools
 BuildRequires:  python3-inotify
 
 Requires:       python3-babel
+Requires:       python3-dateutil
 Requires:       python3-six >= 1.9.0
 Requires:       python3-oslo-config
 Requires:       python3-oslo-context
