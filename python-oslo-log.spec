@@ -131,7 +131,7 @@ rm -rf {test-,}requirements.txt
 %endif
 
 # generate html docs
-sphinx-build doc/source html
+PYTHONPATH=. sphinx-build doc/source html
 # remove the sphinx-build leftovers
 rm -rf html/.{doctrees,buildinfo}
 
