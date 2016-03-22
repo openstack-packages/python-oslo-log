@@ -8,8 +8,8 @@
 %global pkg_name oslo-log
 
 Name:           python-oslo-log
-Version:        XXX
-Release:        XXX
+Version:        3.2.0
+Release:        1%{?dist}
 Summary:        OpenStack Oslo Log library
 
 License:        ASL 2.0
@@ -172,3 +172,6 @@ rm -rf .testrepository
 %endif
 
 %changelog
+* Tue Mar 22 2016 Haikel Guemar <hguemar@fedoraproject.org> 3.2.0-
+- Update to 3.2.0
+
